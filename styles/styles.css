@@ -1,0 +1,139 @@
+textarea {
+    resize: none;
+}
+
+body {
+    background-color: rgb(102, 117, 122);
+    color: rgb(34, 28, 28);
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(154, 58, 58);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color:  purple;
+    height: 0.2ch;
+}
+
+.Description p {
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.text-info {
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+
+.Avatar {
+    padding-top: 10px;
+    width: 300px;
+    border-radius: 28px;
+
+}
+
+.card {
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 20px;
+    border: 5px solid;
+    margin-bottom: 15px;
+}
+
+.bg-first {
+    background: #fff9dc;
+}
+
+.bg-second {
+    background: #e5ffe7;
+}
+
+.bg-third {
+    background: #ffe5e5;
+}
+
+.bg-fouth {
+    background: #acf8b3;
+}
+
+.bg-fivth {
+    background: #e8c4c4;
+}
+
+.Table {
+    text-align: left;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.Table td, .Table th {
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.Table th {
+    background-color: rgb(91, 241, 211);
+}
+
+
+.Table td:nth-child(2) {
+    color: red;
+}
+
+.Table td:nth-child(3) {
+    color: blue;
+}
+
+.contact label {
+    display: block;
+}
+
+.contact textarea {
+    outline: none;
+    font-family: inherit;
+    position: relative;
+}
+
+.contact button {
+    position: absolute;
+    bottom: 4px;
+    left: 242px;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 3px 7px;
+    border: 2px solid;
+    font-family: inherit;
+}
+
+.contact button:hover {
+    opacity: 0.9;
+}
+
+.position {
+    position: relative;
+}
